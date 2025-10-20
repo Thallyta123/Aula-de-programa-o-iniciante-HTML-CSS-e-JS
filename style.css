@@ -1,15 +1,38 @@
 .container {
     width: 900px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;justify-content: center;
-    background-color: lightblue;
-    height: 80vh;
+    justify-content: center;
+    background-color: #e6e6e6;
+    height: 100vh;
 }
 
-.box-img > img{
-    width: 200px;
-    height: 200px;
-    margin: 20px;
+.flex-container {
+    display: flex;
+}
+
+h1, p {
+    margin: 0;
+}
+
+button {
+    padding: 0
+}
+
+.box-img, .box-text {
+    max-height: 240px;
+}
+
+.box-img {
+    img{
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        border-radius: 50%;
+    }
+}
+
+.box-text {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
 }
