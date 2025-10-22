@@ -1,0 +1,23 @@
+{
+  "name": "aula-de-programa-o-iniciante-html-css-e-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cerdeloma/Aula-de-programa-o-iniciante-HTML-CSS-e-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cerdeloma/Aula-de-programa-o-iniciante-HTML-CSS-e-JS/issues"
+  },
+  "homepage": "https://github.com/cerdeloma/Aula-de-programa-o-iniciante-HTML-CSS-e-JS#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
